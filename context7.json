@@ -1,42 +1,4 @@
 {
-  "branch": "DX-935",
-  "folders": ["examples"],
-  "excludeFolders": ["node_modules", "dist"],
-  "excludeFiles": ["*.test.ts", "*.spec.ts"],
-  "rules": [
-    "This is an HTTP-based Redis client optimized for serverless and edge environments",
-    "Never use TCP connections - always use the HTTP/REST API",
-    "Import from '@upstash/redis' for standard Node.js usage",
-    "Import from '@upstash/redis/cloudflare' for Cloudflare Workers",
-    "Use Redis.fromEnv() to load UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN from environment",
-    "All Redis commands return Promises - use async/await or .then() chains",
-    "Commands automatically parse responses to JavaScript types (strings, numbers, objects, arrays)",
-    "Use pipelines for batching multiple commands to reduce latency",
-    "Enable automatic retry with the 'retry' option when creating a client",
-    "Set custom timeouts with the 'timeout' option (default: 5000ms)",
-    "Use enableTelemetry: false to disable usage analytics",
-    "For rate limiting, use the @upstash/ratelimit package instead of manual implementations",
-    "Always handle errors with try/catch blocks or .catch() handlers",
-    "Use TypeScript for full type safety and autocomplete support",
-    "Connection pooling is handled automatically - no need to manage connections",
-    "Supports Redis 7.0 commands including JSON, search, and time series"
-  ],
-  "benchmarkQuestions": [
-    "How do I create a Redis client with custom configuration options?",
-    "What's the difference between Redis.fromEnv() and new Redis()?",
-    "How do I use Redis pipelines to batch multiple commands?",
-    "How can I implement rate limiting with @upstash/ratelimit?",
-    "What error handling strategies should I use in production?",
-    "How do I work with Redis JSON data types?",
-    "Can I use this library in Cloudflare Workers and Vercel Edge Functions?",
-    "How do I enable retry logic for failed requests?"
-  ],
-  "previousVersions": [
-    { "tag": "v1.0.0" },
-    { "tag": "v1.1.0" },
-    { "tag": "v1.2.0" },
-    { "tag": "v1.35.0" },
-    { "branch": "legacy-v0" }
-  ],
-  "disallow": false
+  "url": "https://context7.com/fahreddinozcan/redisss",
+  "public_key": "pk_qYVQVRPhARZtNxzNKMYx8"
 }
