@@ -1,3 +1,5 @@
 {
-  "url": "https://context7.com/test"
+  "url": "https://context7.com/test",
+  "public_key": "pk_abc123",
+  "test": "true"
 }
