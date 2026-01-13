@@ -1,5 +1,5 @@
 {
-  "foo": "bar",
-  "banana": 123,
-  "settings": { "enabled": true }
+  "url": "https://context7.com/test",
+  "public_key": "pk_valid123",
+  "extraField": "this will fail"
 }
